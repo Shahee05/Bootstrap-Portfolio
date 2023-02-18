@@ -81,6 +81,13 @@
 
 }
 
+/*work section*/
+
+.card{
+    border: 5px solid darkred;
+    text-align: center;
+}
+
 /* skill section */
 
 .skills { 
