@@ -83,10 +83,16 @@
 
 /*work section*/
 
-.card{
+.card {
     border: 5px solid darkred;
     text-align: center;
 }
+
+.card-text {
+    color:brown;
+
+}
+
 
 /* skill section */
 
