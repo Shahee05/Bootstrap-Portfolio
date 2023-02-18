@@ -20,18 +20,22 @@
     <a class="navbar-brand" href="#"><img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nInyI4XNxw1JevDHsLiqtt9u3H7uf9UiZQ&usqp=CAU"
         alt="hijabi girl avatar" width="50px" </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Work</a>
-          <a class="nav-item nav-link" href="#">Contact Me</a>
+          <a class="nav-item nav-link active button2" href="#aboutme">About Me <span
+              class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active button2" href="#work">Work</a>
+          <a class="nav-item nav-link active button2" href="#skills">Skills</a>
+          <a class="nav-item nav-link active button2" href="#contact">Contact Me</a>
 
         </div>
       </div>
+
   </nav>
 
   <!-- Bootstrap Jumbotron code-->
@@ -39,59 +43,119 @@
     <h1 class="display-4">Shahee Islam</h1>
     <p class="mini">Welcome to my portfolio where the skills and technique I have learnt would be on display here.</p>
     <hr class="my-4">
-    <a class="btn btn-primary btn-sm" href="#" role="button">Find out more!</a> 
+    <a class="btn btn-primary btn-sm" href="#contact" role="button">Contact me to find out more!</a>
   </div>
 
-  <div class="container-fluid" id="info">
-    <h2>About Me</h2>
-    <div class="content">
-            <p>I am new to the software development field and have recently started learning new techniques and codes to become a confident Front-End Developer. Some of which are HTML, CSS, Bootstrap. Some of the work I have produced are displayed below - check it out! </p>
-        </div>
-  </div>
-      <!-- <p class="lead">Welcome to my portfolio where the skills and technique I have learnt would be on display here.</p>
+  <div class="container-fluid">
+    <h2 class="about" id="aboutme">About Me</h2>
+    <br>
+
+    <div class="content" id="info">
+      <p>I am new to the software development field and have recently started learning new techniques and codes to
+        become a confident Front-End Developer. Some of which are HTML, CSS, Bootstrap. Some of the work I have produced
+        are displayed below - check it out! </p>
     </div>
+  </div>
 
-    <div>
-      <p class="lead">Welcome to my portfolio where the skills and technique I have learnt would be on display here.</p>
-    </div> -->
+  <br>
+
+
 
   <!-- containers and rows -->
   <div class="container-fluid">
+    <h2 class="about" id="work">Work</h2>
     <div class="row">
+      <!--Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12 border border-primary">
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Horiseon</p>
+            <a href="#" class="btn btn-primary">Link</a>
+          </div>
+        </div>
+        <br>
 
-      <div class="col-6 col-sm-4 col-lg-2"> 1 </div>
-      <div class="col-6 col-sm-4 col-lg-2"> 1 </div>
-      <div class="col-6 col-sm-4 col-lg-2"> 1 </div>
-      <div class="col-6 col-sm-4 col-lg-2"> 1 </div>
-      <div class="col-6 col-sm-4 col-lg-2"> 1 </div>
-      <div class="col-6 col-sm-4 col-lg-2"> 1 </div>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
-    </div>
-  </div>
+      </div>
+      <!-- End card 1 -->
 
-  <br>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
-    </div>
-  </div>
-  <br>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
+      <!--Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12 border border-primary">
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Check</p>
+            <a href="#" class="btn btn-primary">Link</a>
+          </div>
+        </div>
+        <br>
+
+      </div>
+      <!-- End card 2 -->
+
+      <!--Card 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12 border border-primary">
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Check</p>
+            <a href="#" class="btn btn-primary">Jake's Eatery</a>
+          </div>
+        </div>
+        <br>
+
+      </div>
+      <!-- End card 3 -->
+
+
     </div>
   </div>
   </section>
+  <br>
 
+
+  <section>
+    <div class="container-fluid">
+      <h2 class="about" id="skills">Skills</h2>
+      <div class="row skills">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> HTML </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> CSS </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> UX/Bootstrap </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> Javascript </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> Web APIs </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> Node. </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> React </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> 3rd Party APIs </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> Server APIs </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+
+  <section class="form" id="contact">
+    <div class="container-fluid">
+      <h2 class="about" id="skills">Contact Me</h2>     
+      <br>
+
+      <p>
+        <label for="first_name">First name</label>
+        <input type="text" name="first_name" placeholder="John" />
+      </p>
+      <p>
+        <label for="last_name">Last name</label>
+        <input type="text" name="last_name" placeholder="Smith" />
+      </p>
+      <p>
+        <label for="message"></label>
+        <textarea cols="46" rows="3" name="comments" placeholder="Type your message here"></textarea>
+        <input class="btn btn-submit" type="submit" value="Submit" />
+      </p>
+    </div>
+  </section>
 
 </body>

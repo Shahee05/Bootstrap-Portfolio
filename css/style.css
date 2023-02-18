@@ -6,6 +6,11 @@
     background-color: burlywood;
 }
 
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+/* jumbotron features */
 .display-4 {
     color: rgb(221, 139, 39);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -14,7 +19,7 @@
     align-items: center;
     justify-content: center;
     text-decoration-line: overline underline;
-    text-decoration-color:rgb(156, 82, 82);
+    text-decoration-color:brown;
 }
 
 .backimage {
@@ -37,9 +42,6 @@
     text-align: center;
 
 }
-#info {
-    background-color: bisque;
-}
 
 .btn {
     display: flex;
@@ -54,7 +56,21 @@
 .row {
     background-color: burlywood;
 }
+
+#info {
+    background-color: bisque;
+
+}
+
+/* about me section */
+.about {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
+    text-align: center;
+}
 .content {
+    background-color: bisque;
     color: rgb(221, 139, 39);
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
@@ -65,4 +81,29 @@
 
 }
 
+/* skill section */
+
+.skills { 
+    background-color: bisque;
+    color: rgb(221, 139, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+/*form features*/
+
+.form {  
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    
+  }
 
